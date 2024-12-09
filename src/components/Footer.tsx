@@ -1,5 +1,6 @@
 //i use chat gpt code for responsiveness
 import React from "react";
+import Image from "next/image";
 import { PiClockClockwiseBold } from "react-icons/pi";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaPinterest } from "react-icons/fa";
 
@@ -97,7 +98,7 @@ const Footer = () => {
             <ul className="space-y-4">
               {[1, 2, 3].map((item) => (
                 <li key={item} className="flex items-start">
-                  <img src={`../footer${item}.png`} alt="Post Thumbnail" className="w-16 h-16" />
+                  <Image src={`../footer${item}.png`} alt="Post Thumbnail" className="w-16 h-16" />
                   <div className="ml-4">
                     <p className="text-xs text-gray-400">20 Feb 2022</p>
                     <h3 className="text-sm text-white">Keep Your Business</h3>

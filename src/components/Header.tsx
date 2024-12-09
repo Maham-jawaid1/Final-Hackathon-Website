@@ -11,9 +11,9 @@ export default function Header() {
         {/* Top Header */}
         <div className="flex justify-center items-center">
           {/* Logo */}
-          <a href="/" className="text-2xl font-bold">
+          <Link href="/" className="text-2xl font-bold">
             Food<span className="text-orange-500">tuck</span>
-          </a>
+          </Link>
         </div>
 
         {/* Bottom Section: Navigation Links */}
